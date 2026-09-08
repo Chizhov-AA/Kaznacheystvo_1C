@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КАЗ_РасходныйКассовыйОрдер.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.КАЗ_ФактическиеПлатежи</registerRecords>
   <registerRecords>AccumulationRegister.КАЗ_ОстаткиСчетовИКасс</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -112,4 +113,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="dc52aa52-d87d-4e8a-bb0a-95b5e9269a38">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>
