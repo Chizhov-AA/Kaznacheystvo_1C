@@ -93,6 +93,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Заявка</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ЗаявкаПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ЗаявкаРасширеннаяПодсказка</name>
       <id>9</id>
