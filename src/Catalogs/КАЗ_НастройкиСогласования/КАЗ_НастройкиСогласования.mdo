@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb1c783c-ba05-4b86-95c4-c8bcfa99beba">
+  <producedTypes>
+    <objectType typeId="391484a3-54c2-402c-abe2-363627ac73c8" valueTypeId="f74b2f8b-54a7-4ff7-8999-cfe9f247b329"/>
+    <refType typeId="fe80c73e-62a8-457a-a2c9-ef6ac8240c79" valueTypeId="015a1c29-d050-4345-8909-281b6488529b"/>
+    <selectionType typeId="a82d3746-2606-41ae-8698-b532dd0ea61e" valueTypeId="3d314151-b29b-4aaf-abdf-b3cb4eb14d53"/>
+    <listType typeId="deb73b61-31f8-4351-89db-17453e5a250b" valueTypeId="e105030b-3d30-45e6-bfbd-65c52694288d"/>
+    <managerType typeId="ee7bd40b-9262-46c9-8f42-08286c531b8e" valueTypeId="c453f615-8a3a-4428-9b35-21e794925888"/>
+  </producedTypes>
+  <name>КАЗ_НастройкиСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки согласования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_НастройкиСогласования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_НастройкиСогласования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2aee3007-12f4-4993-bc50-4d30b3994d75">
+    <name>ЦФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦФО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_ЦентрыФинансовойОтветственности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2cbcde80-4e91-401b-ac08-18c1a34ceab2">
+    <name>МинимальнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b51ff7ec-5ae9-4c66-bf44-1d5e93a5bee8">
+    <name>МаксимальнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca92a58d-6c5e-47e6-93f3-f4ee16af830c">
+    <name>КоличествоЭтапов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество этапов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

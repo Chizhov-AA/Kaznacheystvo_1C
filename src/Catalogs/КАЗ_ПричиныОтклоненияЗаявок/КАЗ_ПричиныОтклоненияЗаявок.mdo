@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4b9ac1e-c33b-4741-a969-8a446982f235">
+  <producedTypes>
+    <objectType typeId="e9d8ff22-1355-4219-b16d-49ef2bc130f1" valueTypeId="f07885df-678d-4b2d-8d48-7988a24c7c48"/>
+    <refType typeId="a574b279-12d8-4cb1-a19c-bb095dc3c6ca" valueTypeId="2fc9db47-1ab0-4b9d-9c5c-fce51e61a798"/>
+    <selectionType typeId="49483a26-5b84-40ca-9438-44011d3c4792" valueTypeId="387ef0d3-2e88-4531-99f6-de2f289d0b4a"/>
+    <listType typeId="93dab0d7-f2f0-40ad-b6c4-1c52dcc35ca8" valueTypeId="7d8197c2-121f-464a-a3e0-59714fbceaf2"/>
+    <managerType typeId="99479a9a-10f7-4cfb-b581-5381acab8917" valueTypeId="a4b40b64-b79c-4fcf-99e7-381d96a70970"/>
+  </producedTypes>
+  <name>КАЗ_ПричиныОтклоненияЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ причины отклонения заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_ПричиныОтклоненияЗаявок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_ПричиныОтклоненияЗаявок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="08618629-285d-4148-a809-cb20e102d0b2">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7b84d6f-6264-4b92-97b3-ad1bb39047df">
+    <name>Активна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

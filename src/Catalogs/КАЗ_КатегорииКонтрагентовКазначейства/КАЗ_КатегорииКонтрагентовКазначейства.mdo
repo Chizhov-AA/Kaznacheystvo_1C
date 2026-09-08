@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1085e5b9-adc9-4064-97bd-f37cd5c18427">
+  <producedTypes>
+    <objectType typeId="1cbceecd-5d2e-4789-bf3d-ebfbd520b2c1" valueTypeId="14731773-0c5a-4034-b6cd-88dfa47d2ab5"/>
+    <refType typeId="0c301430-06ce-4533-880a-a55c9956f0cf" valueTypeId="2ae9c7ce-763b-4413-a106-6ed9af5d5ddf"/>
+    <selectionType typeId="4875c988-bea3-4af9-9d42-9d962291d257" valueTypeId="5805c914-79c9-420c-a55f-310de3b606a8"/>
+    <listType typeId="de7b9333-e120-435d-bcd5-5de0725175ae" valueTypeId="1a4262a9-970d-41e4-91cf-5d62354ac3f0"/>
+    <managerType typeId="2a03a24d-9c7e-4ee4-9c80-cc7d074404f9" valueTypeId="80655bc7-dda6-4ba7-8e17-44961d04f465"/>
+  </producedTypes>
+  <name>КАЗ_КатегорииКонтрагентовКазначейства</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ категории контрагентов казначейства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_КатегорииКонтрагентовКазначейства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_КатегорииКонтрагентовКазначейства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c56405c7-9498-44f5-badc-94fde3b2d903">
+    <name>Приоритетность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритетность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba74cf57-8458-40eb-a982-97f9792dd7f7">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d04a37d1-e3b7-4e45-9558-605d22603882">
+  <producedTypes>
+    <objectType typeId="a512dc61-9875-4397-8bbc-8a028b5ad72e" valueTypeId="6faf0b3e-7138-4c11-9737-6423024959e5"/>
+    <refType typeId="b75393be-f5e6-4e7c-ac97-a9653c3beb87" valueTypeId="15dfd4e3-c312-415d-a2e9-75bbdd720dff"/>
+    <selectionType typeId="24bf2657-600f-41d8-a1db-38538d247f5e" valueTypeId="316d4ce6-bdd6-48bd-bdfb-1e452ef9b99f"/>
+    <listType typeId="c2d99b88-739e-4649-a76a-3b334e50d49e" valueTypeId="cf804ebc-cb79-45be-8f5d-581c47a7d8d7"/>
+    <managerType typeId="790d5f7c-95db-4cfd-af5c-c7e9db567772" valueTypeId="130a2c30-439f-4d63-a03c-e59bd51fb36f"/>
+  </producedTypes>
+  <name>КАЗ_ЦентрыФинансовойОтветственности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центры финансовой ответственности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_ЦентрыФинансовойОтветственности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_ЦентрыФинансовойОтветственности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e2bf1858-fd46-4cb3-b5ea-edca04c02e70">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="21679c19-a47d-4404-945a-012ef2293ebf">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

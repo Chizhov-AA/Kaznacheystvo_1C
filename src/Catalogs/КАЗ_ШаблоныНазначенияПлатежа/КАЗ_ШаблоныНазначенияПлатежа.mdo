@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="395c7e9a-c70f-4c33-9ed9-d0ffdf16ea17">
+  <producedTypes>
+    <objectType typeId="18e8e4da-c4f6-4f23-b8f4-d8e9de6536db" valueTypeId="786b27c4-e577-4539-bc6b-ce09467effa7"/>
+    <refType typeId="c9d76ecb-c158-4c74-8e34-e4002f808ff6" valueTypeId="c48c468b-6a64-4b44-99ab-767ceeaaa120"/>
+    <selectionType typeId="f5539908-2d5f-4b7a-8393-5acbce12e1f5" valueTypeId="23929702-9962-426f-b2f3-bde540615e7c"/>
+    <listType typeId="b41d74c4-d98b-45a7-bc14-bf1b64a1c337" valueTypeId="8b2c8274-e101-44ef-b33b-c430d4ae6dab"/>
+    <managerType typeId="052ce576-3827-40be-b444-1e815a3e29e9" valueTypeId="b67e8838-2b2e-4a97-8156-6d6621191e9a"/>
+  </producedTypes>
+  <name>КАЗ_ШаблоныНазначенияПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ шаблоны назначения платежа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_ШаблоныНазначенияПлатежа.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_ШаблоныНазначенияПлатежа.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bbdc1379-f9cd-49f1-9172-1c57c54e8c7f">
+    <name>СтатьяПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_СтатьиПлатежей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bbabf344-4233-478c-869d-5eaa35327d8d">
+    <name>ТекстНазначенияПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст назначения платежа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

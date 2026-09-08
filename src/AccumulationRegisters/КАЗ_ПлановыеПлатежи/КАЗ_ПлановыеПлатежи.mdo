@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ac13907-4cf0-4f56-8c40-1740cd90bc58">
+  <producedTypes>
+    <selectionType typeId="e929bba6-d848-4aa7-803c-f7ebf2168038" valueTypeId="36ada5f3-0fa4-4fa1-9884-1b0567eafbbb"/>
+    <listType typeId="6fca234b-f642-4196-8d2c-7c42e3922d07" valueTypeId="489a9530-0440-4695-9dc0-79f95ce600af"/>
+    <managerType typeId="108fa2d5-5ed2-45f8-8788-9306f5c2d22e" valueTypeId="d355af5b-f4c0-4adf-9519-d847f4ca3fd5"/>
+    <recordSetType typeId="2dd0a837-50a0-4a8a-9d6d-32b00b78b442" valueTypeId="082da6ae-bb6a-4a4f-93d6-0ec5275f56ad"/>
+    <recordKeyType typeId="c4e600bf-dd02-4c47-9233-30e40800a79b" valueTypeId="64217991-f6c2-4453-8eb5-8aa9e201c009"/>
+    <recordType typeId="84f37e58-2205-4ee1-965b-4197ab3e9125" valueTypeId="a68c82d5-7c5f-4d9c-927c-63cf1acdc539"/>
+  </producedTypes>
+  <name>КАЗ_ПлановыеПлатежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановые платежи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fc780a2b-a5c5-4e0e-a954-d4f4fef71637">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d320f894-70a3-4fd6-be6e-2a3dca716785">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КАЗ_ЗаявкаНаОплату</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="56abb332-78de-4ef1-9626-8eaa28ea4c1f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="42dc33d6-5532-4f66-97c0-119e8f573226">
+    <name>СтатьяПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_СтатьиПлатежей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ddad7d57-5d4f-4d75-a803-b0dae08a70b6">
+    <name>ЦФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦФО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_ЦентрыФинансовойОтветственности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

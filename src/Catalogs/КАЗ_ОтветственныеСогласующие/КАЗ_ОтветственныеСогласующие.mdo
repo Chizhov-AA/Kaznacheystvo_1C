@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92513126-fa3e-4024-b4a9-c3ab75ab0025">
+  <producedTypes>
+    <objectType typeId="51c83ac4-d771-4ae6-9d78-c874ff26373d" valueTypeId="781a8a64-4002-46aa-a20a-64280c1d8693"/>
+    <refType typeId="ae1e69f7-c914-4223-a02e-9eb9f824e758" valueTypeId="bf6648b9-7b01-4071-b5b1-9f49faf72683"/>
+    <selectionType typeId="38afda8b-0745-4631-ae14-c12761eefa5a" valueTypeId="c3f28f6a-4433-4634-8c44-aed2d3840310"/>
+    <listType typeId="1acfcfff-2501-47cc-bdac-5bfd6d1dbc4a" valueTypeId="9dcdb7d6-0e8a-4049-9a3d-757cb171b34f"/>
+    <managerType typeId="10b5e085-62af-4e3b-a950-25a7c65198b1" valueTypeId="851d5fc0-1ff9-4c9f-945c-66a0b300be15"/>
+  </producedTypes>
+  <name>КАЗ_ОтветственныеСогласующие</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ ответственные согласующие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_ОтветственныеСогласующие.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_ОтветственныеСогласующие.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.КАЗ_ЦентрыФинансовойОтветственности</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6031c6ba-842a-46cd-bf86-9abb107319bd">
+    <name>Согласующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласующий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d6c6d7c-6b4c-4dad-a752-7dcec31e219a">
+    <name>МинимальнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc1543c0-fb4e-42bd-ae51-e392714e6350">
+    <name>МаксимальнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

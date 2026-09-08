@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b16f79e-9f7e-46ef-bf8b-6f77839a4ccf">
+  <producedTypes>
+    <objectType typeId="283acdaa-615f-451b-b919-d80692075ea2" valueTypeId="80b880eb-eda2-43ac-b8de-b1d701f04e21"/>
+    <refType typeId="c9dc4584-7af6-42b6-9362-ed6a7b21706c" valueTypeId="c5f2be68-c948-42ff-b25f-ce259704de83"/>
+    <selectionType typeId="51ef9583-2cc5-4ced-a6d7-c8516ae02218" valueTypeId="48e7bc1a-f210-40fd-9397-6b27ceea2071"/>
+    <listType typeId="c23607f1-7968-4c67-b6ee-958acd9f5925" valueTypeId="cdad712a-0452-470b-9254-e351072221aa"/>
+    <managerType typeId="61184c4b-989a-4f29-8249-59b5346b88c7" valueTypeId="a3d49545-7bdb-4564-b406-8b0efe18c725"/>
+  </producedTypes>
+  <name>КАЗ_ПлатежноеПоручениеИсходящее</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ платежное поручение исходящее</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КАЗ_ПлатежноеПоручениеИсходящее.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

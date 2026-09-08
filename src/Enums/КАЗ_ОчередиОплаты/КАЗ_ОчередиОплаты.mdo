@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65e46f7d-435e-4087-a403-83de3ed8ed4f">
+  <producedTypes>
+    <refType typeId="a7b8b5af-e347-47fb-b1b9-36b7fe2ea39c" valueTypeId="ef777966-a276-4e0f-9664-e0162d9fb9b7"/>
+    <listType typeId="1dc42aa4-34d9-4759-935f-8e873692c303" valueTypeId="25ec2315-801e-4ac7-adc9-d0e424707af7"/>
+    <managerType typeId="ca4fd010-24ab-47fd-90c2-d948a355d560" valueTypeId="59ddc6ed-1037-4d8e-95fb-cafc98d3b95d"/>
+  </producedTypes>
+  <name>КАЗ_ОчередиОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ очереди оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7e63cc0-0f42-49e4-9d01-45d055c2e435">
+    <name>ПерваяОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первая очередь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a830f943-3577-4fa5-bb7c-b75b91eb71d1">
+    <name>ВтораяОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторая очередь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4702f4a0-b9ef-4b95-80ff-55934882558d">
+    <name>ТретьяОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Третья очередь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5518a42c-88c9-4077-b0fa-d691c72957ab">
+    <name>ЧетвертаяОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Четвертая очередь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

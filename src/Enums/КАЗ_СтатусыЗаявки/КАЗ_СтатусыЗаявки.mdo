@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b1cbeec-47a1-4a0c-bb39-2e62ee132f9c">
+  <producedTypes>
+    <refType typeId="6e6016c4-6e0b-4256-b7fb-a5c7ac40163c" valueTypeId="e34514e7-a731-49a2-b9a6-c67578a85cac"/>
+    <listType typeId="657d145d-0e8b-4ca9-97a4-7c0a6610fd41" valueTypeId="578fca2a-f795-4bb4-a885-e1c58df04f06"/>
+    <managerType typeId="c1f4d87b-e2b0-42aa-b46f-c22133b74613" valueTypeId="03e2a110-73b4-4184-b32d-bc6db4911963"/>
+  </producedTypes>
+  <name>КАЗ_СтатусыЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ статусы заявки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="59b69298-eaf2-4267-86c5-b80ce0aad045">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d30d80a-9fe5-4c82-a08f-5a7397601c31">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e4deb9f-6dc5-4300-90ef-7a338f67542b">
+    <name>Согласована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94481e4e-89d8-4a71-b492-9a22047accab">
+    <name>Отклонена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4425d5ec-b7f3-4def-9f8b-54cbd231808c">
+    <name>ВРеестре</name>
+    <synonym>
+      <key>ru</key>
+      <value>В реестре</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee82efd7-da27-45fc-9988-1cc8c04fd9e0">
+    <name>Оплачена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f96f93b-eabe-47eb-9e71-7933bf55417d">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

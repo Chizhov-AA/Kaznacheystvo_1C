@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bd74999-0233-4d74-b4f7-77df232d27cd">
+  <producedTypes>
+    <objectType typeId="500326d4-00b3-42f1-800f-15de46ce6d9a" valueTypeId="2b6f0438-cfdb-4ef8-86be-9431a6b1dceb"/>
+    <refType typeId="bfa52c85-d077-456d-96f4-3d820568ad8a" valueTypeId="e9182acb-b5c2-41aa-8803-32531d51022b"/>
+    <selectionType typeId="2ead5ce9-ecb4-45bb-b906-41c27286d7ad" valueTypeId="b3450f19-bfa4-4091-9d23-636ee73fd1b9"/>
+    <listType typeId="9b9b6670-fcdd-4eff-b836-430ec8272a82" valueTypeId="c0039c55-d28a-4fc6-a338-66c8b83bd30b"/>
+    <managerType typeId="d59eec46-0fdd-46b9-ba3a-4da2eb1b2144" valueTypeId="54ab01dd-9f4b-4738-a481-6ed4f3b82b20"/>
+  </producedTypes>
+  <name>КАЗ_КассыОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ кассы организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_КассыОрганизации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_КассыОрганизации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8d5b1f17-9d1e-435a-a843-29133caf3609">
+    <name>МатериальноОтветственноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материально ответственное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1032c1f0-1200-46ed-8336-5138281178b2">
+    <name>ЛимитОстаткаКассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит остатка кассы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f36d28b-203f-4707-a7a7-8bba8198386e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

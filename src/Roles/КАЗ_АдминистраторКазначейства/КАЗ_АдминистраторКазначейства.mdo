@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11b515c0-655f-4f86-b568-a142553407e4">
+  <name>КАЗ_АдминистраторКазначейства</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ администратор казначейства</value>
+  </synonym>
+</mdclass:Role>

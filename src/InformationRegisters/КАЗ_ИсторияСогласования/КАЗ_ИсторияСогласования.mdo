@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2136e059-1059-47e8-bdba-cfc3fe6240b2">
+  <producedTypes>
+    <selectionType typeId="d4b96d89-63cc-4892-8f53-dd715e3fa7cc" valueTypeId="d0b330fa-5632-4e6b-8991-97458240a8ca"/>
+    <listType typeId="bf2a89ed-bb61-43a3-9b02-be7ffa1c37aa" valueTypeId="81c54717-3fb9-478c-b0ad-6a953dcfab60"/>
+    <managerType typeId="2941a9ba-c698-4601-bace-8abb520dd4c2" valueTypeId="28037774-a77a-47ba-ba23-5887570af85c"/>
+    <recordSetType typeId="799249fe-188d-417b-95b2-596ea40d7e4f" valueTypeId="5b4b8408-47c1-4440-8ac7-6fe9b07d39c3"/>
+    <recordKeyType typeId="865fcd9e-a703-4ee0-aeda-fbe07ee874dc" valueTypeId="2f3ff517-3fa6-434a-a3d2-5a58c0df2097"/>
+    <recordType typeId="4725f20d-91e9-4877-894e-97b2ff4e8c8e" valueTypeId="975da465-78ac-46bb-9afa-3f657911bf35"/>
+    <recordManagerType typeId="941f1454-ebf0-4553-a7ac-3b682e45cd6e" valueTypeId="8440c977-dc5c-4d9a-bcdd-e398214e22ef"/>
+  </producedTypes>
+  <name>КАЗ_ИсторияСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>История согласования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="413c28c5-6503-44b4-8f0c-1fbfb26fbadd">
+    <name>Этап1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="31d111ee-ba1e-4ca2-be60-58fd217e21a6">
+    <name>Этап2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="c1fda5cb-2e70-43ff-b519-a722964cb358">
+    <name>Этап3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="6f8fb00f-3197-4c66-91b8-f0cbe26b456a">
+    <name>ЦФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦФО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_ЦентрыФинансовойОтветственности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

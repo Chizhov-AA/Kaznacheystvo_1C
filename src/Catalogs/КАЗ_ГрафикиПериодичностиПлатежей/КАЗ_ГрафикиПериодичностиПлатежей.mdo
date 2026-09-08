@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c277c6e-1952-405f-9b8c-463f60c2ee72">
+  <producedTypes>
+    <objectType typeId="19ebb9ea-73b9-47f4-a307-562f1466bb23" valueTypeId="509017f3-bcee-4f66-bdf6-f147a59a97d9"/>
+    <refType typeId="fd51a401-8336-4170-bd71-42307aeab17d" valueTypeId="1dd5f536-3fcc-4ac4-aed4-f690cc04553a"/>
+    <selectionType typeId="a4b50060-3764-46fa-85ee-c13624ec1354" valueTypeId="dd662f3e-3a98-4694-9bbb-886b44f3e5cd"/>
+    <listType typeId="86f7990f-a2d4-43ed-9f51-b2a99fea1394" valueTypeId="36f9aff4-daee-477e-b71e-c42ed5c62ecb"/>
+    <managerType typeId="fc96b819-794f-42c9-a0bb-9adb58033e52" valueTypeId="fe946932-5e12-47f3-bd6f-cfd7f2e614bb"/>
+  </producedTypes>
+  <name>КАЗ_ГрафикиПериодичностиПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ графики периодичности платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_ГрафикиПериодичностиПлатежей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_ГрафикиПериодичностиПлатежей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6de8e668-8d67-4102-aeb0-3061b69f519c">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9906c876-4638-4e2e-95c0-396dab8cb72d">
+    <name>ДеньПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>День платежа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1f0bb11-b12a-4c56-bae0-338b10308222">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

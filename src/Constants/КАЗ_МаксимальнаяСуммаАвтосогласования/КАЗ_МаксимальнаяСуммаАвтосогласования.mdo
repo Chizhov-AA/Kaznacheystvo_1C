@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50f945f6-9981-4cac-a5da-c43277ddfb12">
+  <producedTypes>
+    <managerType typeId="123a9e7b-f2c8-4d3f-84c3-dfd038c94399" valueTypeId="d8c81fc2-9c88-4213-bbf0-d17096c26e1b"/>
+    <valueManagerType typeId="3ce8c273-874f-4955-9b1e-626545ce3966" valueTypeId="ea03c315-6c11-4a3a-88f0-3069350f438a"/>
+    <valueKeyType typeId="e41e3c10-aae2-4b0a-9083-7525c90e5e83" valueTypeId="b173b495-cb38-4e26-be22-ed6df7738578"/>
+  </producedTypes>
+  <name>КАЗ_МаксимальнаяСуммаАвтосогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальная сумма автосогласования</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7a3bf7f-c8fc-458f-b7eb-cc04dc1bf1e6">
+  <producedTypes>
+    <objectType typeId="3ac71ebb-8b6a-4833-bdf9-de3c31787e47" valueTypeId="494ab0e4-568b-4095-9b05-367da6a6cf46"/>
+    <refType typeId="fded9e44-2198-42be-8d24-dacd6746cdb3" valueTypeId="980245e7-db70-4bdb-931f-745ad6411fe3"/>
+    <selectionType typeId="a743bb99-41b6-4681-946f-175344a95d08" valueTypeId="4662c037-8451-488c-ad92-fb12dceb73f3"/>
+    <listType typeId="64885461-2592-4723-82b7-f4f7119b4ff3" valueTypeId="b8b7ff3d-80b1-4d93-a5e1-d128d96dbd90"/>
+    <managerType typeId="030fe536-6159-4a18-bf1a-96a1feb8774e" valueTypeId="77f8012e-881a-46f2-966b-b11000abe9f0"/>
+  </producedTypes>
+  <name>КАЗ_УстановкаЛимитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка лимитов платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КАЗ_УстановкаЛимитов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КАЗ_УстановкаЛимитов.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.КАЗ_ЛимитыПлатежей</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="468cb936-6bdc-42c4-a5ed-50ab08409589">
+    <name>ПериодЛимита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период лимита</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="efea2057-09e8-4533-ae97-d4fb890dada6">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="2c3cc822-90ea-4583-92c5-89ece2a89e47">
+    <producedTypes>
+      <objectType typeId="3a2a3024-00e3-4c5a-a2ea-c5e8bf68efb9" valueTypeId="58bd1b8a-3695-43c9-8108-457d66260102"/>
+      <rowType typeId="433883ac-da8f-4c04-96b2-1335afb95d11" valueTypeId="255eba9a-6e58-47e3-b638-fd3b0a157f20"/>
+    </producedTypes>
+    <name>Лимиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимиты</value>
+    </synonym>
+    <attributes uuid="14e8233d-f4a6-43fa-83b1-7799ed38c576">
+      <name>ЦФО</name>
+      <synonym>
+        <key>ru</key>
+        <value>ЦФО</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КАЗ_ЦентрыФинансовойОтветственности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="93b3101b-945b-4416-8463-529dd7ae742d">
+      <name>СтатьяПлатежа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья платежа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КАЗ_СтатьиПлатежей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="311ef187-cb55-46fb-94d1-05ca96c5d97b">
+      <name>Лимит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лимит</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

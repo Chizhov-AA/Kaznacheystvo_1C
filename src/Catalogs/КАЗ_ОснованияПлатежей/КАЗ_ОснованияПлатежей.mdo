@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83f8dc45-8d2f-40b5-9f2d-463713f1e344">
+  <producedTypes>
+    <objectType typeId="af79ebab-2ac5-42f4-9e89-f5b8c27a8777" valueTypeId="636114d1-0ba1-49e3-9004-352d2e2ca4bf"/>
+    <refType typeId="0d60896a-2583-4927-9b89-edcab7bebc7f" valueTypeId="274f8615-fd1a-4d1c-a0a8-6f6f56692f09"/>
+    <selectionType typeId="fa0e056b-4a71-462b-af17-d5c4d56ded90" valueTypeId="253c0fce-ac66-4af3-9205-64f49d4c06b9"/>
+    <listType typeId="b8a478ae-0466-4dea-b82a-1d4c73edea8d" valueTypeId="4d3a1201-649e-48e4-b41d-a2d39cea49f7"/>
+    <managerType typeId="7c9dab2d-d04c-464b-b322-d16863a0438e" valueTypeId="72f24b68-ed16-4b87-8222-3aa8db486f9a"/>
+  </producedTypes>
+  <name>КАЗ_ОснованияПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основания платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_ОснованияПлатежей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_ОснованияПлатежей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="272b6aea-a7b2-4dff-8940-ad301a6afd2b">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afa0b3bd-7eed-4ac9-ae4d-50356ae6bf89">
+    <name>ТребуетДоговор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требует договор</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbe6cf02-82f0-4dcc-ae76-e11fc39cbe06">
+  <name>НСИКазначейства</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИКазначейства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КАЗ_СтатьиПлатежей</content>
+  <content>Catalog.КАЗ_ЦентрыФинансовойОтветственности</content>
+  <content>Catalog.КАЗ_ОчередиПлатежей</content>
+  <content>Catalog.КАЗ_ОснованияПлатежей</content>
+  <content>Enum.КАЗ_СтатусыЗаявки</content>
+  <content>Enum.КАЗ_ПриоритетыПлатежа</content>
+  <content>Enum.КАЗ_ОчередиОплаты</content>
+  <content>Enum.КАЗ_РешенияСогласования</content>
+  <content>Enum.КАЗ_ВидыОснованийПлатежа</content>
+  <content>Enum.КАЗ_СтатусыРеестра</content>
+  <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
+</mdclass:Subsystem>

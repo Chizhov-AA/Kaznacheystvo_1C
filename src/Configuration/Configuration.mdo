@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d5d6456-9665-447e-a682-806f3a0dbe8b">
+  <name>КАЗ_Казначейство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Казначейство</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e2541da9-76e6-4f31-935b-61039a1875f6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d7d28cc7-6969-40d5-90b0-b863149a3b1f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e6134b4e-cfa6-40d4-ab79-c6a88d28cba5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ea691c0a-716e-485d-9e3f-08c7a0de5781"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e998f553-06ef-47fe-8211-d5e9f68d6560"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f7aa2dd9-b3a1-4f0a-bb18-795dd1f09b27"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7d0c9041-5457-40ab-bb2d-5a290380ce4f"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>КАЗ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.КАЗ_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="8f262874-68f1-4dad-9b3b-817f1155190f" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Казначейство</subsystems>
+  <roles>Role.КАЗ_ОсновнаяРоль</roles>
+  <roles>Role.КАЗ_Инициатор</roles>
+  <roles>Role.КАЗ_Согласующий</roles>
+  <roles>Role.КАЗ_Казначей</roles>
+  <roles>Role.КАЗ_АдминистраторКазначейства</roles>
+  <constants>Constant.КАЗ_ИспользоватьСогласование</constants>
+  <constants>Constant.КАЗ_МаксимальнаяСуммаАвтосогласования</constants>
+  <constants>Constant.КАЗ_КоличествоДнейПланирования</constants>
+  <catalogs>Catalog.КАЗ_СтатьиПлатежей</catalogs>
+  <catalogs>Catalog.КАЗ_ЦентрыФинансовойОтветственности</catalogs>
+  <catalogs>Catalog.КАЗ_МаршрутыСогласования</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.КАЗ_ОчередиПлатежей</catalogs>
+  <catalogs>Catalog.КАЗ_ОснованияПлатежей</catalogs>
+  <catalogs>Catalog.КАЗ_НастройкиСогласования</catalogs>
+  <catalogs>Catalog.КАЗ_БанковскиеСчетаОрганизации</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.КАЗ_КассыОрганизации</catalogs>
+  <catalogs>Catalog.КАЗ_ПричиныОтклоненияЗаявок</catalogs>
+  <catalogs>Catalog.КАЗ_ЭтапыМаршрутаСогласования</catalogs>
+  <catalogs>Catalog.КАЗ_ГрафикиПериодичностиПлатежей</catalogs>
+  <catalogs>Catalog.КАЗ_БанкиКонтрагентов</catalogs>
+  <catalogs>Catalog.КАЗ_КатегорииКонтрагентовКазначейства</catalogs>
+  <catalogs>Catalog.КАЗ_ШаблоныНазначенияПлатежа</catalogs>
+  <catalogs>Catalog.КАЗ_ОтветственныеСогласующие</catalogs>
+  <documents>Document.КАЗ_ЗаявкаНаОплату</documents>
+  <documents>Document.КАЗ_СогласованиеЗаявки</documents>
+  <documents>Document.КАЗ_РеестрПлатежей</documents>
+  <documents>Document.КАЗ_УстановкаЛимитов</documents>
+  <documents>Document.КАЗ_ПланОплат</documents>
+  <documents>Document.КАЗ_ПлатежноеПоручениеИсходящее</documents>
+  <enums>Enum.КАЗ_СтатусыЗаявки</enums>
+  <enums>Enum.КАЗ_ПриоритетыПлатежа</enums>
+  <enums>Enum.КАЗ_ОчередиОплаты</enums>
+  <enums>Enum.КАЗ_РешенияСогласования</enums>
+  <enums>Enum.КАЗ_ВидыОснованийПлатежа</enums>
+  <enums>Enum.КАЗ_СтатусыРеестра</enums>
+  <reports>Report.КАЗ_РеестрЗаявок</reports>
+  <reports>Report.КАЗ_ПлатежныйКалендарь</reports>
+  <reports>Report.КАЗ_ПланФактПлатежей</reports>
+  <informationRegisters>InformationRegister.КАЗ_ИсторияСогласования</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.КАЗ_ПлановыеПлатежи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КАЗ_ФактическиеПлатежи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КАЗ_ЛимитыПлатежей</accumulationRegisters>
+</mdclass:Configuration>

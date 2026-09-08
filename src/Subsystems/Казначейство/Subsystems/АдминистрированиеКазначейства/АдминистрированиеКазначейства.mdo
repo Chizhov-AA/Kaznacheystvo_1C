@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32ece3e3-ac61-4e66-a834-894247526cfe">
+  <name>АдминистрированиеКазначейства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование казначейства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.КАЗ_УстановкаЛимитов</content>
+  <content>AccumulationRegister.КАЗ_ПлановыеПлатежи</content>
+  <content>AccumulationRegister.КАЗ_ФактическиеПлатежи</content>
+  <content>AccumulationRegister.КАЗ_ЛимитыПлатежей</content>
+  <content>Constant.КАЗ_ИспользоватьСогласование</content>
+  <content>Constant.КАЗ_МаксимальнаяСуммаАвтосогласования</content>
+  <content>Constant.КАЗ_КоличествоДнейПланирования</content>
+  <content>Role.КАЗ_ОсновнаяРоль</content>
+  <content>Role.КАЗ_Инициатор</content>
+  <content>Role.КАЗ_Согласующий</content>
+  <content>Role.КАЗ_Казначей</content>
+  <content>Role.КАЗ_АдминистраторКазначейства</content>
+  <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
+</mdclass:Subsystem>

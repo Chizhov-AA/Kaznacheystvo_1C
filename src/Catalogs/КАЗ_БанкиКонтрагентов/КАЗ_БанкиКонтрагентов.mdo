@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0026c0e1-5a0f-4aac-b20c-5e815d2763ec">
+  <producedTypes>
+    <objectType typeId="fcc89091-065f-4cac-b34b-a8633eaf0599" valueTypeId="e45a91ab-492e-4a7c-b736-0aecdaa521c6"/>
+    <refType typeId="55c5fedc-c3e7-4b06-af13-3de51cf9d53a" valueTypeId="516220a9-6e78-4648-80fd-89f011711ccf"/>
+    <selectionType typeId="ba28964f-4dfa-4dec-8162-caaf2435266b" valueTypeId="770a029e-6948-442e-ab66-4683585837d2"/>
+    <listType typeId="82e9a333-7632-4451-9663-507ad643345e" valueTypeId="b5cebccf-e504-4d31-a5cf-da322678bdc4"/>
+    <managerType typeId="4439cefb-01f5-48d3-94b7-f2e944ab97f6" valueTypeId="bd8b0432-a6d9-4f6b-a312-995a82816f4d"/>
+  </producedTypes>
+  <name>КАЗ_БанкиКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ банки контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_БанкиКонтрагентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_БанкиКонтрагентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="461a3ed6-e2b4-4dd9-9485-a14512874fb5">
+    <name>БИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>БИК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af588bef-6cda-41f8-af7a-da0644999e05">
+    <name>КоррСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корр счет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e2c883ec-9555-4764-80ab-bddc66dd7d60">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

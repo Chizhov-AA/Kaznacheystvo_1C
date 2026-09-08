@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4faf9c1-1380-4d0d-9e5c-82a21a52a68f">
+  <producedTypes>
+    <refType typeId="ede32946-1fed-4ed7-ac4c-78bba4faf70c" valueTypeId="2c28077a-0849-4370-9b1a-222d8e55ac67"/>
+    <listType typeId="d5e74e75-c4fd-4e80-837b-d7669c82bdf5" valueTypeId="3b137b17-328a-4138-92f7-3185e0868211"/>
+    <managerType typeId="39e296c9-64f2-4fa7-ab49-243eecfff54a" valueTypeId="c96bf929-68ad-47e8-88ae-e8b42b86b290"/>
+  </producedTypes>
+  <name>КАЗ_СтатусыРеестра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы реестра</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d0c8b499-d625-4bc3-8f23-fb64d1281e9c">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee85c6b3-30af-404c-9bb3-bb6033fa5107">
+    <name>Подготовлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="287e4d3f-fc41-4df8-a11f-217f62ca6a0d">
+    <name>Утвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвержден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="611912d7-326d-4017-b96d-db44c9c8d8c6">
+    <name>Исполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6bea2fe8-dafc-44a6-aaf0-55efd5af2089">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

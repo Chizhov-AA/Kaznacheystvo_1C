@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="721aac20-a2a0-4eb5-b707-28885c2ccd6b">
+  <producedTypes>
+    <managerType typeId="2efdd9b4-a258-4275-a77f-bc33cbbec7ce" valueTypeId="b154fe74-8c9f-4ab3-ace2-2240070b1f8d"/>
+    <valueManagerType typeId="9fd7c522-9cd1-4c1f-a898-30ae3eccd8ea" valueTypeId="16d74a7c-659b-4e58-a3bf-6104d220e3e8"/>
+    <valueKeyType typeId="ffd98dd6-69af-4c90-8b78-2630000bd0cd" valueTypeId="d62c32bf-2e68-44e6-b344-6f273c36a22a"/>
+  </producedTypes>
+  <name>КАЗ_КоличествоДнейПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней планирования</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

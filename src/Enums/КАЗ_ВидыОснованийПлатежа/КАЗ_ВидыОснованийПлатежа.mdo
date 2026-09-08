@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef071991-e3b2-4beb-b2a0-3a182e6dcbda">
+  <producedTypes>
+    <refType typeId="8c8005c5-d62a-4a82-abdd-8c00f26c8157" valueTypeId="abcc8488-df53-48a7-bb50-940b8c992bdb"/>
+    <listType typeId="bfbae6af-ecb1-463d-9468-f877f18295e9" valueTypeId="39fb45c0-48c8-47f1-9035-a9f4885baafb"/>
+    <managerType typeId="f27097a7-046d-4bd1-9bdc-2e16a68286ee" valueTypeId="2a90bf16-8328-45ef-a820-3cadb0f1adec"/>
+  </producedTypes>
+  <name>КАЗ_ВидыОснованийПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ виды оснований платежа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3fa0b649-a715-4c87-b87b-bf80b18c433c">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abe398dd-f9aa-4252-b865-1ef16e374fd1">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36fd1ea5-8e7c-4316-9ab5-94af35591317">
+    <name>СлужебнаяЗаписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебная записка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32fd1a78-fb8f-4e4b-a472-87183dd50478">
+    <name>Акт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98557546-324b-482b-9990-e7c8ce8e8b80">
+    <name>Иное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

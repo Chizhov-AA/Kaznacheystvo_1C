@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8be648c-b3b8-4f91-8157-4de580590c3a">
+  <producedTypes>
+    <refType typeId="050201ee-90bb-4477-83ec-aeb00bbd982d" valueTypeId="1bc39460-3136-40f2-9c98-71cfa1e91bb2"/>
+    <listType typeId="99164c27-79b5-43b8-8313-c295e125910f" valueTypeId="be53c813-9c26-490b-838f-475b06aab289"/>
+    <managerType typeId="842a78ac-508f-458d-a45d-68ac3990f273" valueTypeId="a578e97c-a954-43d0-b97d-65e9dc142e63"/>
+  </producedTypes>
+  <name>КАЗ_ПриоритетыПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ приоритеты платежа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c3d70351-6dc8-46ac-bffc-cc2a04a1d8bf">
+    <name>Низкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea76f3b5-8785-498b-aad6-7b704a831d24">
+    <name>Обычный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d631cd26-3ce5-47f9-9e9a-e4368d1a8c84">
+    <name>Высокий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d68dd41e-7c4d-43f5-9849-f12652e268f8">
+    <name>Критический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критический</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

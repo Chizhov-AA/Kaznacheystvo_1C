@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1360ccde-5fe6-4049-a487-cbfb8284abc8">
+  <producedTypes>
+    <objectType typeId="33ed93d9-9370-4b8c-804d-aa66157fa530" valueTypeId="f2a3489f-3fd6-4d8b-8679-e367e17830e8"/>
+    <managerType typeId="8ef053f0-c757-4b66-9c9a-9b7aac40aa5e" valueTypeId="14d2cf41-e018-4a95-8230-dd8227be7104"/>
+  </producedTypes>
+  <name>КАЗ_ПлатежныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ платежный календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

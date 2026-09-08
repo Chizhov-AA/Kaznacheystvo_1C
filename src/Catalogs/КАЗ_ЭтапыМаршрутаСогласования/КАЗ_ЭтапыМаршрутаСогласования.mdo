@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20c6b846-df89-4f51-a011-94cf09cbeaeb">
+  <producedTypes>
+    <objectType typeId="833f58df-58f6-4712-b784-9a30fc7962b7" valueTypeId="50857735-6bb1-40f3-b264-7c0fdf2bcc5c"/>
+    <refType typeId="693d2bde-736a-465c-aeff-445aeebc5b7b" valueTypeId="a56246ab-4afa-407a-9255-0663b88706f9"/>
+    <selectionType typeId="e7b19d8f-1736-4003-80a8-6f5cdc2790d3" valueTypeId="86c91f2a-f340-42f1-9df4-810a484e2a1d"/>
+    <listType typeId="baf2f533-c09a-4d06-b051-d1d1b27037d6" valueTypeId="cb1496e0-c6a2-4730-930d-107cf3fb8377"/>
+    <managerType typeId="7480f578-ab6f-4856-b4df-b890595c87c2" valueTypeId="44dd1a37-ea48-4a74-a120-979a0b801f02"/>
+  </producedTypes>
+  <name>КАЗ_ЭтапыМаршрутаСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ этапы маршрута согласования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_ЭтапыМаршрутаСогласования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_ЭтапыМаршрутаСогласования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.КАЗ_МаршрутыСогласования</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7b562320-95e0-4141-be36-bb8f962693cb">
+    <name>НомерЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер этапа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cafb1d8c-7bd9-4fb4-9ef6-1658550980c4">
+    <name>Согласующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласующий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a93f6560-4d92-4437-9d2f-6bc46153cc27">
+    <name>ОбязательныйЭтап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный этап</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

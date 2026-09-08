@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07128ae8-7f8c-48b4-b4ff-8f1780e1dd67">
+  <producedTypes>
+    <objectType typeId="375b3255-0003-4d85-8384-33d6a57d5fa8" valueTypeId="f2f8ef45-e29a-4411-98b8-35a6374b2cc0"/>
+    <managerType typeId="1b53b818-ac46-439b-88de-fd51c52290ed" valueTypeId="c69502ac-0e4f-480b-87c7-36346366502e"/>
+  </producedTypes>
+  <name>КАЗ_ПланФактПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ план факт платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

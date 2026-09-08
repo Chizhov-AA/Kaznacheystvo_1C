@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a4175b2-5938-46d6-964b-02bc3e165c62">
+  <name>Казначейство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Казначейство</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.КАЗ_ЗаявкаНаОплату</content>
+  <content>Document.КАЗ_РеестрПлатежей</content>
+  <content>Document.КАЗ_ПланОплат</content>
+  <content>Report.КАЗ_ПлатежныйКалендарь</content>
+  <content>Catalog.КАЗ_БанковскиеСчетаОрганизации</content>
+  <content>Catalog.КАЗ_КассыОрганизации</content>
+  <content>Catalog.КАЗ_ПричиныОтклоненияЗаявок</content>
+  <content>Catalog.КАЗ_ЭтапыМаршрутаСогласования</content>
+  <content>Catalog.КАЗ_ГрафикиПериодичностиПлатежей</content>
+  <content>Catalog.КАЗ_БанкиКонтрагентов</content>
+  <content>Catalog.КАЗ_КатегорииКонтрагентовКазначейства</content>
+  <content>Catalog.КАЗ_ШаблоныНазначенияПлатежа</content>
+  <content>Catalog.КАЗ_ОтветственныеСогласующие</content>
+  <subsystems>НСИКазначейства</subsystems>
+  <subsystems>Согласование</subsystems>
+  <subsystems>ОтчетыКазначейства</subsystems>
+  <subsystems>АдминистрированиеКазначейства</subsystems>
+</mdclass:Subsystem>

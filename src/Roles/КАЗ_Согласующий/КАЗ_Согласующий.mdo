@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a32c7ae-2bd6-4996-b455-e097b21d1726">
+  <name>КАЗ_Согласующий</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ согласующий</value>
+  </synonym>
+</mdclass:Role>

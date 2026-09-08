@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39cfaa88-5bfb-4416-b4db-69bf30f92f0d">
+  <producedTypes>
+    <selectionType typeId="ce322950-a44e-422f-b032-bfa43cafab7d" valueTypeId="f02d214d-08b4-44d0-bb3a-cbe0d0045411"/>
+    <listType typeId="616e684e-91bb-4ff0-bbdc-d95d11d3ecdc" valueTypeId="b5e76587-62b0-4c8c-b829-19f77b85ea49"/>
+    <managerType typeId="a5079d95-b822-4a07-ae2e-04aa5487a143" valueTypeId="6e8f151c-c20a-413d-9f6a-3c9c3de89b8f"/>
+    <recordSetType typeId="dcedfa82-00ec-403c-aa5e-1065e42c95f2" valueTypeId="7824e102-6728-40e5-bd6d-4c10c0fdc877"/>
+    <recordKeyType typeId="d561b176-2fb9-4588-8923-a54ba9cc0826" valueTypeId="350bf3a4-f57f-4bb7-b96a-9d45590ffae1"/>
+    <recordType typeId="8b91706e-5d9b-4f28-a50c-f9eee2432f14" valueTypeId="fcad0989-fb6d-4a22-b42e-9a62e32fd96e"/>
+  </producedTypes>
+  <name>КАЗ_ФактическиеПлатежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фактические платежи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b392651f-e318-4113-bb9e-916c807c3050">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="dcc044df-a734-4ba5-9774-195efe775f52">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КАЗ_ЗаявкаНаОплату</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3298d1df-085d-4d21-b740-05e8252cb5af">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0212d5d-d918-46e0-a9a0-7d460abb2aa9">
+  <name>ОтчетыКазначейства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты казначейства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.КАЗ_РеестрЗаявок</content>
+  <content>Report.КАЗ_ПлатежныйКалендарь</content>
+  <content>Report.КАЗ_ПланФактПлатежей</content>
+  <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
+</mdclass:Subsystem>

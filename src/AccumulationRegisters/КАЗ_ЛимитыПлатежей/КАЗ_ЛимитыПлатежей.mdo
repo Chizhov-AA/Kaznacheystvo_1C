@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb568456-b306-4599-943a-8b6bdb18dbd0">
+  <producedTypes>
+    <selectionType typeId="f70bab3e-1d7a-4620-bead-32d058e89066" valueTypeId="12473682-3a59-458e-90ce-1f4354e4c700"/>
+    <listType typeId="c0c1edb6-eac9-470d-8676-75b2fd8299e1" valueTypeId="12ecb63f-353a-4475-a69d-324884667797"/>
+    <managerType typeId="0cd7df0a-a854-4cb1-a0e6-2a4b069329fc" valueTypeId="7a6793b1-29cb-4ae0-9647-6c3049e50ee4"/>
+    <recordSetType typeId="1fcc0516-475d-4f6c-9372-6d07998e518b" valueTypeId="1f5a5989-c1da-4934-aa1a-378c401d26aa"/>
+    <recordKeyType typeId="d510ba6c-a572-4381-ae26-4cbdfa796e41" valueTypeId="23349915-a34c-431b-8f10-4678db8cfaeb"/>
+    <recordType typeId="4f7529bf-223f-474f-9481-ab833d14f4a3" valueTypeId="8204fa56-3bfe-4095-8c40-6a28495adb7f"/>
+  </producedTypes>
+  <name>КАЗ_ЛимитыПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лимиты платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8548b063-b095-48a0-847f-54c4b6e64c2c">
+    <name>Лимит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="609ee296-9a3f-4a2f-a7bb-5296a65b8876">
+    <name>ЦФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦФО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_ЦентрыФинансовойОтветственности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ad361989-f88f-4757-87bd-468b1921a61b">
+    <name>СтатьяПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_СтатьиПлатежей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

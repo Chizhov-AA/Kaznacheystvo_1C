@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4ea4530-8049-4808-a87b-3b008714f122">
+  <producedTypes>
+    <managerType typeId="09ef8877-1fbf-483d-84c6-04a4f8deb83d" valueTypeId="34a5e7c3-1a1a-4ba3-bded-5b31ed3355c8"/>
+    <valueManagerType typeId="4eff68a0-1e91-4894-bdd9-eb6ad05e4795" valueTypeId="3b691142-6e79-49a5-b684-2452589425ec"/>
+    <valueKeyType typeId="7ea87721-78c4-40e0-86c9-68052069c080" valueTypeId="d136dc47-bebf-4969-996d-5ea8701514df"/>
+  </producedTypes>
+  <name>КАЗ_ИспользоватьСогласование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать согласование</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

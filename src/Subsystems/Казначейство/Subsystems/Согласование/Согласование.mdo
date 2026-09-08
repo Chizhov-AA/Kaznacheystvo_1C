@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68d0a00c-f200-4248-ad84-4b7392c28310">
+  <name>Согласование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КАЗ_МаршрутыСогласования</content>
+  <content>Catalog.КАЗ_НастройкиСогласования</content>
+  <content>Document.КАЗ_СогласованиеЗаявки</content>
+  <content>InformationRegister.КАЗ_ИсторияСогласования</content>
+  <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
+</mdclass:Subsystem>

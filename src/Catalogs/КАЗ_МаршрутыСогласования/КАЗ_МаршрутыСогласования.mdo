@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="484d67bd-a6db-4f54-b71d-4ac8b60d05c1">
+  <producedTypes>
+    <objectType typeId="db5ab82e-12b7-434e-9872-e1f738188608" valueTypeId="c6433456-cd79-49b3-bd64-5428be7ef5b5"/>
+    <refType typeId="469540cf-7ca5-4500-8bbd-24e78c699427" valueTypeId="c008402c-fb99-46ca-9d71-abf1c01585c1"/>
+    <selectionType typeId="6121cc71-a11d-4da9-b91d-7c13afbfef42" valueTypeId="d3fd9640-3e37-4b7d-9641-44fd56b6ebbe"/>
+    <listType typeId="d2e07475-611e-42bc-aab4-7212b9a94012" valueTypeId="7ea94838-a8e6-4ad8-a857-5d62fa8bbf9f"/>
+    <managerType typeId="021cf317-7bf0-4e8d-8d01-0fa9c280f587" valueTypeId="19e57187-2778-40f4-a8b2-6ac211d10804"/>
+  </producedTypes>
+  <name>КАЗ_МаршрутыСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршруты согласования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАЗ_МаршрутыСогласования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАЗ_МаршрутыСогласования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="14c08996-4a6c-4637-b655-a77220a2ae46">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7cc7f581-9cee-41f5-9fd6-971b48378715">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ab00791-6f5b-454b-a870-f39fe8916d17">
+  <producedTypes>
+    <objectType typeId="9fb5ae4a-c6c4-4e4e-994e-87b8794ee503" valueTypeId="c041642b-3779-4348-9dcc-14f5620137f1"/>
+    <refType typeId="5c0c0198-be86-47ae-ac0a-32b9d0e9d1ba" valueTypeId="16c949c3-9dad-445c-8b70-38dac2f3fdd5"/>
+    <selectionType typeId="1814a044-6221-4ba1-89a8-4422cce1ff7c" valueTypeId="6aaf74cd-2799-4c1e-b31d-82448c9b563d"/>
+    <listType typeId="f1e8ae6e-3b0f-4747-8980-cd0e1a9ba779" valueTypeId="6b22a819-8dfa-4ddf-b5f1-7ad01c034bff"/>
+    <managerType typeId="410e8069-d59e-4d2d-92ae-75dcce50d9dd" valueTypeId="adc53eb0-dabc-42de-8cde-58cede9e4739"/>
+  </producedTypes>
+  <name>КАЗ_ПланОплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>План оплат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КАЗ_ПланОплат.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d5445693-d61b-46a8-b8ca-2bf72db38cd8">
+    <name>ПериодПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период плана</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39927dd7-d316-43a9-9613-c4df0682122c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="cabfb237-f161-4f17-8b72-64e84eb7f834">
+    <producedTypes>
+      <objectType typeId="085671df-485a-411b-b134-d0a098f37415" valueTypeId="4ed0a547-e8a0-4a98-a652-d4dcf81fa727"/>
+      <rowType typeId="35a1e013-6f55-469b-8808-87116ceb3058" valueTypeId="6877c247-806b-42ac-9fe7-4d6250369c81"/>
+    </producedTypes>
+    <name>Платежи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежи</value>
+    </synonym>
+    <attributes uuid="472fcda1-f0ce-498a-abdc-629ca149357f">
+      <name>Заявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.КАЗ_ЗаявкаНаОплату</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="60a306c9-e5b6-4d95-be50-b214efaedd04">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6e964d3e-d81c-4a54-9595-b035d18227b5">
+      <name>ДатаОплаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата оплаты</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="05694695-7006-4227-bf3e-ef8a9aee8531">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbd9a8f2-fbba-481c-9f44-39a5f072bed6">
+      <name>ОчередьОплаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Очередь оплаты</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КАЗ_ОчередиПлатежей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

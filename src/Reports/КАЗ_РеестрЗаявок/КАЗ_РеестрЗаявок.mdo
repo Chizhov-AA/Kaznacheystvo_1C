@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a139db2-27a5-4795-97d9-5ec8b5067945">
+  <producedTypes>
+    <objectType typeId="88840989-4fb7-4b5a-a3d8-2cd5d376879f" valueTypeId="48898284-dbe2-4e37-90d3-9c58fec8d16a"/>
+    <managerType typeId="3d770372-6628-4fd5-8854-3ac017dd644c" valueTypeId="3318a285-8793-4739-ae8a-94528b17f7e1"/>
+  </producedTypes>
+  <name>КАЗ_РеестрЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ реестр заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

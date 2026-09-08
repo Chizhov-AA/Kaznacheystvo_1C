@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1fc68e2-7a93-4046-a0cd-b378805732c4">
+  <producedTypes>
+    <refType typeId="f754650c-3429-490e-b65a-670e7089d291" valueTypeId="8678e7db-4985-47ed-919b-fd91a5975dd4"/>
+    <listType typeId="1a46c966-8b60-47f3-aedd-6403b052f88d" valueTypeId="04382146-a6b5-4815-9034-65bd00b56974"/>
+    <managerType typeId="10e46a1b-ae95-471f-805a-af5a5832f0d2" valueTypeId="4d1c1c0f-ef37-4fe6-8485-37eb7a5394f3"/>
+  </producedTypes>
+  <name>КАЗ_РешенияСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАЗ решения согласования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3583550a-73b9-4837-8b9e-ddb2bea3071f">
+    <name>Согласовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95713e00-d67d-4f40-8bd7-1e017177be60">
+    <name>Отклонено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d733c0d9-b9fe-403a-a93d-1b778d539656">
+    <name>ВозвращеноНаДоработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвращено на доработку</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
