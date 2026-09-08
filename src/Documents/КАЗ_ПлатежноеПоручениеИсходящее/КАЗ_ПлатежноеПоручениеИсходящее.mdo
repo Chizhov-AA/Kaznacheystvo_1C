@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.КАЗ_ПлатежноеПоручениеИсходящее.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.КАЗ_ФактическиеПлатежи</registerRecords>
+  <registerRecords>AccumulationRegister.КАЗ_ОстаткиСчетовИКасс</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="9da176d9-f858-437f-9309-7aa222ffafef">
