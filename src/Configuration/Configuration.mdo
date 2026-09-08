@@ -78,6 +78,7 @@
   <documents>Document.КАЗ_РасходныйКассовыйОрдер</documents>
   <documents>Document.КАЗ_ПриходныйКассовыйОрдер</documents>
   <documents>Document.КАЗ_ВнутреннееПеремещениеДенежныхСредств</documents>
+  <documents>Document.КАЗ_АннулированиеЗаявки</documents>
   <enums>Enum.КАЗ_СтатусыЗаявки</enums>
   <enums>Enum.КАЗ_ПриоритетыПлатежа</enums>
   <enums>Enum.КАЗ_ОчередиОплаты</enums>

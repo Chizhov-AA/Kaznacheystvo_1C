@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c718294c-29bd-4bde-8177-97d74bc7139e">
+  <producedTypes>
+    <objectType typeId="7fb97147-8e76-4976-8152-5c4d5274303f" valueTypeId="23bfc333-d67f-4ff2-819c-dcfecb1d5123"/>
+    <refType typeId="753dea52-30b9-4aa1-9070-6aeaeedd451f" valueTypeId="c8c90297-6655-4a3e-b219-350aaff3832d"/>
+    <selectionType typeId="6246394e-2883-44f8-862d-e3a4ad00ac95" valueTypeId="355a56dd-b12e-4146-a5af-c7d8eab5d861"/>
+    <listType typeId="7a6bdbdd-51d2-4411-bafa-324626329963" valueTypeId="6815f62d-e0fa-45b8-8507-bae4eb2be124"/>
+    <managerType typeId="a0452216-5d5d-40c7-8ef2-a958123c0adb" valueTypeId="94b3e4d0-8c12-41ef-be64-3502c22ee228"/>
+  </producedTypes>
+  <name>КАЗ_АннулированиеЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аннулирование заявки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КАЗ_АннулированиеЗаявки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c88dea03-d3e4-4f2e-8b16-da0d599e6825">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КАЗ_ЗаявкаНаОплату</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="436c267f-3349-4aa8-a3ea-7d9c8faf154a">
+    <name>ПричинаОтклонения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отклонения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_ПричиныОтклоненияЗаявок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb413765-2424-4fab-926d-613e3a151124">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
