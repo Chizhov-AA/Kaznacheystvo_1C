@@ -96,6 +96,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ЦФО</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ЦФОПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ЦФОРасширеннаяПодсказка</name>
         <id>18</id>
@@ -137,6 +141,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Контрагент</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>КонтрагентПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>КонтрагентРасширеннаяПодсказка</name>
         <id>9</id>
@@ -219,6 +227,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.СтатьяПлатежа</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СтатьяПлатежаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СтатьяПлатежаРасширеннаяПодсказка</name>
         <id>15</id>
@@ -247,6 +259,25 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormDecoration">
+      <name>ОстатокЛимита</name>
+      <id>71</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value></value>
+      </title>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </items>
     <visible>true</visible>
