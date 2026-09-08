@@ -17,53 +17,46 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="413c28c5-6503-44b4-8f0c-1fbfb26fbadd">
-    <name>Этап1</name>
+  <periodicity>Day</periodicity>
+  <resources uuid="9c1e9f2a-8b0e-4c1a-9d1d-6b9c1a3e7f01">
+    <name>Согласующий</name>
     <synonym>
       <key>ru</key>
-      <value>Этап1</value>
+      <value>Согласующий</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="31d111ee-ba1e-4ca2-be60-58fd217e21a6">
-    <name>Этап2</name>
+  <resources uuid="2f4a5c6d-7e8f-4a1b-9c2d-3e4f5a6b7c02">
+    <name>Решение</name>
     <synonym>
       <key>ru</key>
-      <value>Этап2</value>
+      <value>Решение</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <types>EnumRef.КАЗ_РешенияСогласования</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="c1fda5cb-2e70-43ff-b519-a722964cb358">
-    <name>Этап3</name>
+  <resources uuid="7b3c4d5e-6f70-4b1c-8d2e-9f0a1b2c3d03">
+    <name>Комментарий</name>
     <synonym>
       <key>ru</key>
-      <value>Этап3</value>
+      <value>Комментарий</value>
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -72,13 +65,13 @@
     <fillValue xsi:type="core:StringValue"/>
   </resources>
   <dimensions uuid="6f8fb00f-3197-4c66-91b8-f0cbe26b456a">
-    <name>ЦФО</name>
+    <name>Заявка</name>
     <synonym>
       <key>ru</key>
-      <value>ЦФО</value>
+      <value>Заявка</value>
     </synonym>
     <type>
-      <types>CatalogRef.КАЗ_ЦентрыФинансовойОтветственности</types>
+      <types>DocumentRef.КАЗ_ЗаявкаНаОплату</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -86,5 +79,23 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4d5e6f70-8192-4a3b-b4c5-d6e7f8091a04">
+    <name>НомерЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер этапа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </dimensions>
 </mdclass:InformationRegister>
