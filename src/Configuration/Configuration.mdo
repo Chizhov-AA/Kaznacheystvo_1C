@@ -75,6 +75,7 @@
   <documents>Document.КАЗ_УстановкаЛимитов</documents>
   <documents>Document.КАЗ_ПланОплат</documents>
   <documents>Document.КАЗ_ПлатежноеПоручениеИсходящее</documents>
+  <documents>Document.КАЗ_РасходныйКассовыйОрдер</documents>
   <enums>Enum.КАЗ_СтатусыЗаявки</enums>
   <enums>Enum.КАЗ_ПриоритетыПлатежа</enums>
   <enums>Enum.КАЗ_ОчередиОплаты</enums>
