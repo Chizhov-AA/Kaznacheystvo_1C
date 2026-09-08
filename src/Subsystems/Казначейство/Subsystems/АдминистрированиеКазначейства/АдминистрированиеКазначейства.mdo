@@ -11,6 +11,7 @@
   <content>AccumulationRegister.КАЗ_ПлановыеПлатежи</content>
   <content>AccumulationRegister.КАЗ_ФактическиеПлатежи</content>
   <content>AccumulationRegister.КАЗ_ЛимитыПлатежей</content>
+  <content>AccumulationRegister.КАЗ_ОстаткиСчетовИКасс</content>
   <content>Constant.КАЗ_ИспользоватьСогласование</content>
   <content>Constant.КАЗ_МаксимальнаяСуммаАвтосогласования</content>
   <content>Constant.КАЗ_КоличествоДнейПланирования</content>

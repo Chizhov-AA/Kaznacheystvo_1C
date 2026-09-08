@@ -88,4 +88,5 @@
   <accumulationRegisters>AccumulationRegister.КАЗ_ПлановыеПлатежи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КАЗ_ФактическиеПлатежи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КАЗ_ЛимитыПлатежей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КАЗ_ОстаткиСчетовИКасс</accumulationRegisters>
 </mdclass:Configuration>

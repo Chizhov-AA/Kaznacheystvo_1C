@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d53b45e-c6c6-4ad0-a6f2-6d8af3460244">
+  <producedTypes>
+    <selectionType typeId="6a677a6f-9038-4f53-bc67-24a3a9b8792d" valueTypeId="bf5df709-6b99-413b-8c21-42eb9b561ead"/>
+    <listType typeId="d42e45bf-4672-497d-9f24-aadec95e0e26" valueTypeId="df22c4d2-09e1-4250-a15e-798e60f04bdf"/>
+    <managerType typeId="f481ffe0-4d6f-4052-ab3c-16b84cca2ad8" valueTypeId="f506d28f-1bdb-4272-aa4b-931213f26a30"/>
+    <recordSetType typeId="6bf863dc-c206-47bc-a637-82081f5bd327" valueTypeId="98567e4a-ebb2-435b-a3b5-f950ef8155c6"/>
+    <recordKeyType typeId="2f175848-8515-4d01-a3f7-7dcb2b844915" valueTypeId="fc4f9ed5-df8e-48b7-ab7f-4631af1f5c8f"/>
+    <recordType typeId="0fb77bff-b81b-4b63-9383-7baf57e5b4be" valueTypeId="6e601cd2-9f07-4dbb-b270-40d51786fefc"/>
+  </producedTypes>
+  <name>КАЗ_ОстаткиСчетовИКасс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки счетов и касс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Balance</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e04f141d-e90f-4329-b460-92f755df4a4a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="745f0903-3fda-4fd0-a29f-220361619742">
+    <name>СчетКасса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет/касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_БанковскиеСчетаОрганизации</types>
+      <types>CatalogRef.КАЗ_КассыОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
