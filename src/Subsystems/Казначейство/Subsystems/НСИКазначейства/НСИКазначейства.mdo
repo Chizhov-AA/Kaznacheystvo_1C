@@ -17,5 +17,11 @@
   <content>Enum.КАЗ_РешенияСогласования</content>
   <content>Enum.КАЗ_ВидыОснованийПлатежа</content>
   <content>Enum.КАЗ_СтатусыРеестра</content>
+  <content>Catalog.КАЗ_БанковскиеСчетаОрганизации</content>
+  <content>Catalog.КАЗ_КассыОрганизации</content>
+  <content>Catalog.КАЗ_ГрафикиПериодичностиПлатежей</content>
+  <content>Catalog.КАЗ_БанкиКонтрагентов</content>
+  <content>Catalog.КАЗ_КатегорииКонтрагентовКазначейства</content>
+  <content>Catalog.КАЗ_ШаблоныНазначенияПлатежа</content>
   <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
 </mdclass:Subsystem>

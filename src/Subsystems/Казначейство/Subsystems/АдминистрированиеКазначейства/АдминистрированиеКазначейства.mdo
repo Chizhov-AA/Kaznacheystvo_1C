@@ -19,5 +19,7 @@
   <content>Role.КАЗ_Согласующий</content>
   <content>Role.КАЗ_Казначей</content>
   <content>Role.КАЗ_АдминистраторКазначейства</content>
+  <content>Catalog.КАЗ_ПричиныОтклоненияЗаявок</content>
+  <content>Catalog.КАЗ_ОтветственныеСогласующие</content>
   <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
 </mdclass:Subsystem>

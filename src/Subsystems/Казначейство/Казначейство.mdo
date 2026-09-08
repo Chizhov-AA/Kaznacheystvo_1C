@@ -10,16 +10,8 @@
   <content>Document.КАЗ_ЗаявкаНаОплату</content>
   <content>Document.КАЗ_РеестрПлатежей</content>
   <content>Document.КАЗ_ПланОплат</content>
+  <content>Document.КАЗ_ПлатежноеПоручениеИсходящее</content>
   <content>Report.КАЗ_ПлатежныйКалендарь</content>
-  <content>Catalog.КАЗ_БанковскиеСчетаОрганизации</content>
-  <content>Catalog.КАЗ_КассыОрганизации</content>
-  <content>Catalog.КАЗ_ПричиныОтклоненияЗаявок</content>
-  <content>Catalog.КАЗ_ЭтапыМаршрутаСогласования</content>
-  <content>Catalog.КАЗ_ГрафикиПериодичностиПлатежей</content>
-  <content>Catalog.КАЗ_БанкиКонтрагентов</content>
-  <content>Catalog.КАЗ_КатегорииКонтрагентовКазначейства</content>
-  <content>Catalog.КАЗ_ШаблоныНазначенияПлатежа</content>
-  <content>Catalog.КАЗ_ОтветственныеСогласующие</content>
   <subsystems>НСИКазначейства</subsystems>
   <subsystems>Согласование</subsystems>
   <subsystems>ОтчетыКазначейства</subsystems>
