@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16f430ce-f665-425a-bf63-1e9980454251">
+  <producedTypes>
+    <objectType typeId="393675e2-e04b-4420-b32b-859fd41cd285" valueTypeId="e165e4f0-6705-4598-ab31-cc7b28a8a56d"/>
+    <refType typeId="8851b662-49d7-41f4-a821-317268fb06f2" valueTypeId="ee87ac5c-6919-42a2-80e4-357e09e9cf00"/>
+    <selectionType typeId="329e2cf7-a2ce-4fd3-8016-0cada7576b9c" valueTypeId="03b624e5-8754-4ce6-b2c5-1d7b70ba982a"/>
+    <listType typeId="940341f1-df3d-4f08-ba13-f8c2b1da0353" valueTypeId="f557b9fc-2867-4ff3-96e8-33d7570b3d75"/>
+    <managerType typeId="1dab8052-ab84-4e5e-b623-95a18ecfaead" valueTypeId="2b5fd012-2983-4efb-afa4-62210b725bf7"/>
+  </producedTypes>
+  <name>КАЗ_ВнутреннееПеремещениеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внутреннее перемещение денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КАЗ_ВнутреннееПеремещениеДенежныхСредств.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="803dea4f-334a-4fe2-9e36-7c629c0f2c52">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_БанковскиеСчетаОрганизации</types>
+      <types>CatalogRef.КАЗ_КассыОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="144bd26e-e5e9-4c81-823b-b8bd7956ad45">
+    <name>Приемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАЗ_БанковскиеСчетаОрганизации</types>
+      <types>CatalogRef.КАЗ_КассыОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ddcefe5-c6ae-42f2-8862-34bb7bee3916">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2777149c-d9e4-4d38-890f-19673aed421b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

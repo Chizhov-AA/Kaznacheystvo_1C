@@ -77,6 +77,7 @@
   <documents>Document.КАЗ_ПлатежноеПоручениеИсходящее</documents>
   <documents>Document.КАЗ_РасходныйКассовыйОрдер</documents>
   <documents>Document.КАЗ_ПриходныйКассовыйОрдер</documents>
+  <documents>Document.КАЗ_ВнутреннееПеремещениеДенежныхСредств</documents>
   <enums>Enum.КАЗ_СтатусыЗаявки</enums>
   <enums>Enum.КАЗ_ПриоритетыПлатежа</enums>
   <enums>Enum.КАЗ_ОчередиОплаты</enums>
