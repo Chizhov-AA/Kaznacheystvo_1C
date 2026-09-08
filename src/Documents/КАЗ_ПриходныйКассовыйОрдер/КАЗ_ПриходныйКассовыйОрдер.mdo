@@ -23,6 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.КАЗ_ФактическиеПлатежи</registerRecords>
+  <registerRecords>AccumulationRegister.КАЗ_ОстаткиСчетовИКасс</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3608471e-cb7c-4c10-b8ac-6bdc0d326360">
