@@ -13,6 +13,7 @@
   <content>Document.КАЗ_ПлатежноеПоручениеИсходящее</content>
   <content>Document.КАЗ_РасходныйКассовыйОрдер</content>
   <content>Document.КАЗ_ПриходныйКассовыйОрдер</content>
+  <content>Document.КАЗ_ВнутреннееПеремещениеДенежныхСредств</content>
   <content>Report.КАЗ_ПлатежныйКалендарь</content>
   <subsystems>НСИКазначейства</subsystems>
   <subsystems>Согласование</subsystems>
