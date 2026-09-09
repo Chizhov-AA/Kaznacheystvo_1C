@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d66e424-3c84-4fb8-b7ca-8e52d3ad0044">
+  <producedTypes>
+    <objectType typeId="8af9b0fe-a48c-435c-b267-8db84c0504fd" valueTypeId="c71fe750-ed7a-4c49-b8e8-dcf28ff30f8d"/>
+    <refType typeId="05789cb6-e8cd-4c8a-9401-78ae25d2cf43" valueTypeId="ed1db8cc-9f43-447d-9b5e-b1dad26bcdee"/>
+    <selectionType typeId="0c97031d-790d-4efc-a0d8-8cb7373d8bfa" valueTypeId="8d84108b-4325-4213-b4d2-47ac315b5c87"/>
+    <listType typeId="d887c695-4d42-4e2e-a44d-326c8909704f" valueTypeId="025243cd-899a-4533-86c3-29d5434f2145"/>
+    <managerType typeId="c3f415af-9af9-46d0-9cf2-6ad814d0e4ef" valueTypeId="c372aae1-7f7b-4f5f-b135-5195da0d5cc8"/>
+  </producedTypes>
+  <name>КАЗ_ЗадачаСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача согласования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.КАЗ_ЗадачаСогласования.StandardAttribute.Description</inputByString>
+  <inputByString>Task.КАЗ_ЗадачаСогласования.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <attributes uuid="1b4a953e-0b75-4706-a6e2-1ba46dc00aa4">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КАЗ_ЗаявкаНаОплату</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a29ec9a1-de73-4fdc-97a2-a9b6c098636c">
+    <name>НомерЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер этапа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad2795d5-ee9d-4b7f-9945-53a44f3273e4">
+    <name>Согласующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласующий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Task>
