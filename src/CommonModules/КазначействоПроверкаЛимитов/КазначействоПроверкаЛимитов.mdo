@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b5e2764-83e0-44ef-8371-47c7156144a8">
+  <name>КазначействоПроверкаЛимитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Казначейство: проверка лимитов</value>
+  </synonym>
+  <global>false</global>
+  <clientManagedApplication>false</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>false</externalConnection>
+  <clientOrdinaryApplication>false</clientOrdinaryApplication>
+  <clientCallable>false</clientCallable>
+  <returnValuesReuse>DontUse</returnValuesReuse>
+  <privileged>false</privileged>
+</mdclass:CommonModule>

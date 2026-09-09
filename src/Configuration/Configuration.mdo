@@ -45,6 +45,8 @@
   <roles>Role.КАЗ_Согласующий</roles>
   <roles>Role.КАЗ_Казначей</roles>
   <roles>Role.КАЗ_АдминистраторКазначейства</roles>
+  <commonModules>CommonModule.КазначействоПроверкаЛимитов</commonModules>
+  <commonModules>CommonModule.КазначействоРаботаСДокументами</commonModules>
   <constants>Constant.КАЗ_ИспользоватьСогласование</constants>
   <constants>Constant.КАЗ_МаксимальнаяСуммаАвтосогласования</constants>
   <constants>Constant.КАЗ_КоличествоДнейПланирования</constants>

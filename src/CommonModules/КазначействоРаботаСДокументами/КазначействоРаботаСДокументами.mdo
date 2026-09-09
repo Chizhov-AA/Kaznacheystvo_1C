@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4806290d-3597-4767-9f2f-5b096e9b9505">
+  <name>КазначействоРаботаСДокументами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Казначейство: работа с документами</value>
+  </synonym>
+  <global>false</global>
+  <clientManagedApplication>false</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>false</externalConnection>
+  <clientOrdinaryApplication>false</clientOrdinaryApplication>
+  <clientCallable>false</clientCallable>
+  <returnValuesReuse>DontUse</returnValuesReuse>
+  <privileged>false</privileged>
+</mdclass:CommonModule>
