@@ -87,6 +87,7 @@
   <enums>Enum.КАЗ_РешенияСогласования</enums>
   <enums>Enum.КАЗ_ВидыОснованийПлатежа</enums>
   <enums>Enum.КАЗ_СтатусыРеестра</enums>
+  <reports>Report.КАЗ_ОстаткиДенежныхСредств</reports>
   <reports>Report.КАЗ_РеестрЗаявок</reports>
   <reports>Report.КАЗ_ПлатежныйКалендарь</reports>
   <reports>Report.КАЗ_ПланФактПлатежей</reports>
