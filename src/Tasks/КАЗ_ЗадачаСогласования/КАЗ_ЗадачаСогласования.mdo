@@ -26,6 +26,7 @@
   <descriptionLength>150</descriptionLength>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
+  <defaultObjectForm>Task.КАЗ_ЗадачаСогласования.Form.ФормаЗадачи</defaultObjectForm>
   <attributes uuid="1b4a953e-0b75-4706-a6e2-1ba46dc00aa4">
     <name>Заявка</name>
     <synonym>
@@ -74,4 +75,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="82397ee4-b7f3-4514-ab05-7f65c41e97b8">
+    <name>Решение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КАЗ_РешенияСогласования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8b3e76d4-696d-499d-a8d7-a0c66e9f7d3b">
+    <name>ФормаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Task>
