@@ -15,6 +15,7 @@
   <content>Document.КАЗ_ПриходныйКассовыйОрдер</content>
   <content>Document.КАЗ_ВнутреннееПеремещениеДенежныхСредств</content>
   <content>Document.КАЗ_АннулированиеЗаявки</content>
+  <content>DataProcessor.КАЗ_ИмпортЗаявокИзФайла</content>
   <content>Report.КАЗ_ПлатежныйКалендарь</content>
   <subsystems>НСИКазначейства</subsystems>
   <subsystems>Согласование</subsystems>
