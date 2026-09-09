@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df948128-0c5e-43a4-a6d6-f9eed7c19aee">
+  <producedTypes>
+    <objectType typeId="2a516075-3539-4903-ae8d-d6487c270542" valueTypeId="36e021c6-c543-4a1b-9242-6a4a14f5c82d"/>
+    <refType typeId="27276959-1885-43b0-80e2-d523544e48fe" valueTypeId="77584477-a1ba-41f5-ac9f-37b8faae35dc"/>
+    <selectionType typeId="2020544c-de30-4ed5-a48a-f46467a3ba28" valueTypeId="bd8d2c69-2da9-4771-a80b-5d32eed1bd97"/>
+    <listType typeId="23c698e7-5643-4a8b-b150-44983dbeef5a" valueTypeId="aaa74b11-675b-4395-9f9b-bc80485b307e"/>
+    <managerType typeId="62dd3cbd-7bae-4fd7-a44c-ca0fdd6ba16b" valueTypeId="937de1f8-c5c7-4635-95bd-29b24a60b335"/>
+    <routePointRef typeId="ffc86441-b237-4713-845d-fa9fd8ec0952" valueTypeId="87a64b07-7df1-4600-a14e-e063a0fc6961"/>
+  </producedTypes>
+  <name>КАЗ_СогласованиеЗаявкиБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование заявки (бизнес-процесс)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.КАЗ_СогласованиеЗаявкиБП.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.КАЗ_ЗадачаСогласования</task>
+  <attributes uuid="8b53e2af-7b7e-4a18-8e1e-61980e38fb1f">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КАЗ_ЗаявкаНаОплату</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:BusinessProcess>

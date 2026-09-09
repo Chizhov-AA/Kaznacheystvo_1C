@@ -92,6 +92,7 @@
   <reports>Report.КАЗ_ПлатежныйКалендарь</reports>
   <reports>Report.КАЗ_ПланФактПлатежей</reports>
   <reports>Report.КАЗ_АнализЛимитовПоЦФО</reports>
+  <businessProcesses>BusinessProcess.КАЗ_СогласованиеЗаявкиБП</businessProcesses>
   <tasks>Task.КАЗ_ЗадачаСогласования</tasks>
   <informationRegisters>InformationRegister.КАЗ_ИсторияСогласования</informationRegisters>
   <accumulationRegisters>AccumulationRegister.КАЗ_ПлановыеПлатежи</accumulationRegisters>
