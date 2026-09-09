@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="149645e0-dccb-4611-8e35-1f866594325e">
+  <producedTypes>
+    <objectType typeId="f3d58a1a-1921-410b-b30a-4f1e37038478" valueTypeId="f0e472e8-be49-4c8e-9d47-51bdd6e7c8f5"/>
+    <managerType typeId="3dccbc0c-32dd-447d-8ac5-fb16aac39c1e" valueTypeId="4f596c7e-1c73-4103-a37a-8d448bd0e76e"/>
+  </producedTypes>
+  <name>КАЗ_ЗаполнениеТестовыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение тестовых данных Казначейства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАЗ_ЗаполнениеТестовыхДанных.Form.Форма</defaultForm>
+  <forms uuid="55e1aafe-2844-4c2b-ad9d-00ab50bd68b9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
