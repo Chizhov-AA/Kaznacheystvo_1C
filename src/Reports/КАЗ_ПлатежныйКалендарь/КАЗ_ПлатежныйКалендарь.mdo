@@ -10,4 +10,13 @@
     <value>КАЗ платежный календарь</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КАЗ_ПлатежныйКалендарь.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5e10a675-09d7-4e41-bb60-5f1ebb736176">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:Report>
