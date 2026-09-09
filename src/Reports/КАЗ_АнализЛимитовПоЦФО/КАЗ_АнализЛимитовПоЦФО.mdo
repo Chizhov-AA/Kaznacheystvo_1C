@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2be4678e-317a-4f96-aaed-1ec1690cdf00">
+  <producedTypes>
+    <objectType typeId="34e3253a-1eb9-45dc-bd80-2280a812ff7e" valueTypeId="45f75546-27d0-421b-adff-bc37708f5bc4"/>
+    <managerType typeId="51263743-b00f-4b0c-84bb-d801c0d932a0" valueTypeId="6b02bd29-e20f-4bb0-a4c8-efaee0c9c4a9"/>
+  </producedTypes>
+  <name>КАЗ_АнализЛимитовПоЦФО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ лимитов по ЦФО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КАЗ_АнализЛимитовПоЦФО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8221a010-0fe0-4e6e-a193-163b3f972ba6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -11,5 +11,6 @@
   <content>Report.КАЗ_РеестрЗаявок</content>
   <content>Report.КАЗ_ПлатежныйКалендарь</content>
   <content>Report.КАЗ_ПланФактПлатежей</content>
+  <content>Report.КАЗ_АнализЛимитовПоЦФО</content>
   <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
 </mdclass:Subsystem>

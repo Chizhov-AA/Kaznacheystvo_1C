@@ -91,6 +91,7 @@
   <reports>Report.КАЗ_РеестрЗаявок</reports>
   <reports>Report.КАЗ_ПлатежныйКалендарь</reports>
   <reports>Report.КАЗ_ПланФактПлатежей</reports>
+  <reports>Report.КАЗ_АнализЛимитовПоЦФО</reports>
   <informationRegisters>InformationRegister.КАЗ_ИсторияСогласования</informationRegisters>
   <accumulationRegisters>AccumulationRegister.КАЗ_ПлановыеПлатежи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КАЗ_ФактическиеПлатежи</accumulationRegisters>
