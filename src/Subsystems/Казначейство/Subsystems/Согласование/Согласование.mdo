@@ -12,6 +12,7 @@
   <content>Document.КАЗ_СогласованиеЗаявки</content>
   <content>InformationRegister.КАЗ_ИсторияСогласования</content>
   <content>Task.КАЗ_ЗадачаСогласования</content>
+  <content>BusinessProcess.КАЗ_СогласованиеЗаявкиБП</content>
   <content>Catalog.КАЗ_ЭтапыМаршрутаСогласования</content>
   <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
 </mdclass:Subsystem>
