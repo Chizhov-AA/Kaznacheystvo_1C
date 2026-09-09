@@ -153,4 +153,26 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>BusinessProcess.КАЗ_СогласованиеЗаявкиБП</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Task.КАЗ_ЗадачаСогласования</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Execute</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>
