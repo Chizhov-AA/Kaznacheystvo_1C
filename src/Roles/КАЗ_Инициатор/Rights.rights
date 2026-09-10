@@ -4,6 +4,49 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Catalog.КАЗ_КатегорииКонтрагентовКазначейства</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Казначейство</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.КАЗ_ШаблоныНазначенияПлатежа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.КАЗ_СтатьиПлатежей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.КАЗ_ЗаявкаНаОплату</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.КАЗ_Казначейство</name>
 		<right>
 			<name>ThinClient</name>
@@ -51,35 +94,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.КАЗ_ЗаявкаНаОплату</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КАЗ_ШаблоныНазначенияПлатежа</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КАЗ_КатегорииКонтрагентовКазначейства</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.КАЗ_ЦентрыФинансовойОтветственности</name>
 		<right>
 			<name>Read</name>
@@ -87,9 +101,9 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КАЗ_СтатьиПлатежей</name>
+		<name>Subsystem.Казначейство.Subsystem.НСИКазначейства</name>
 		<right>
-			<name>Read</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -111,6 +125,27 @@
 		<name>Catalog.Номенклатура</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Казначейство.Subsystem.Согласование</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Казначейство.Subsystem.ОтчетыКазначейства</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Казначейство.Subsystem.АдминистрированиеКазначейства</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
