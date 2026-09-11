@@ -69,6 +69,14 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Configuration.КАЗ_Казначейство</name>
