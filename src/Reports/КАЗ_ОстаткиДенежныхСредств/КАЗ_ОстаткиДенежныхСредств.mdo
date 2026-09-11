@@ -10,6 +10,7 @@
     <value>Остатки денежных средств</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КАЗ_ОстаткиДенежныхСредств.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.КАЗ_ОстаткиДенежныхСредств.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="253eaecc-fc2f-4e84-9dd2-a7f750721a7d">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
@@ -19,4 +20,11 @@
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>
+  <forms uuid="ef968f19-301b-457b-966c-e1f2402c530f">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+  </forms>
 </mdclass:Report>
