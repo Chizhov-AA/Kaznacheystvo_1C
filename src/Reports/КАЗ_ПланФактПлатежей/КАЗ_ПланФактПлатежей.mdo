@@ -10,6 +10,7 @@
     <value>КАЗ план факт платежей</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КАЗ_ПланФактПлатежей.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.КАЗ_ПланФактПлатежей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="52758ab4-d721-491d-b158-296022ee2e05">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
@@ -19,4 +20,11 @@
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>
+  <forms uuid="436a4c0e-57f7-4045-a362-ce59630c042e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+  </forms>
 </mdclass:Report>
