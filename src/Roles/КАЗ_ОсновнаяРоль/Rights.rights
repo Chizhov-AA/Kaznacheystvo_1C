@@ -4,9 +4,20 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Subsystem.Казначейство</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.КАЗ_Казначейство</name>
 		<right>
 			<name>ThinClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ThickClient</name>
 			<value>true</value>
 		</right>
 		<right>
