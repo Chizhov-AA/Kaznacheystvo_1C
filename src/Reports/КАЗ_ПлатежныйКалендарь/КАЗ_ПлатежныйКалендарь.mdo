@@ -10,6 +10,7 @@
     <value>КАЗ платежный календарь</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КАЗ_ПлатежныйКалендарь.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.КАЗ_ПлатежныйКалендарь.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="5e10a675-09d7-4e41-bb60-5f1ebb736176">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
@@ -19,4 +20,11 @@
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>
+  <forms uuid="3f6731de-79ed-43a3-901a-71e5090619b4">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+  </forms>
 </mdclass:Report>
