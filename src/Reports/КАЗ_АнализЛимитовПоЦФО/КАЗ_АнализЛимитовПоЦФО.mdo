@@ -10,6 +10,7 @@
     <value>Анализ лимитов по ЦФО</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КАЗ_АнализЛимитовПоЦФО.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.КАЗ_АнализЛимитовПоЦФО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="8221a010-0fe0-4e6e-a193-163b3f972ba6">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
@@ -19,4 +20,11 @@
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>
+  <forms uuid="117a4a4f-7d69-47d2-bbef-31123182d996">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+  </forms>
 </mdclass:Report>
