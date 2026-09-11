@@ -138,6 +138,14 @@
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.КАЗ_СогласованиеЗаявки</name>
@@ -175,6 +183,14 @@
 		</right>
 		<right>
 			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -443,6 +459,14 @@
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.КАЗ_МаршрутыСогласования</name>
@@ -564,6 +588,14 @@
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.КАЗ_СтатьиПлатежей</name>
@@ -681,6 +713,14 @@
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.КАЗ_ПланОплат</name>
@@ -720,6 +760,14 @@
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.КАЗ_ПлатежноеПоручениеИсходящее</name>
@@ -757,6 +805,14 @@
 		</right>
 		<right>
 			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -856,6 +912,14 @@
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.КАЗ_НастройкиСогласования</name>
@@ -943,6 +1007,14 @@
 		</right>
 		<right>
 			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1226,6 +1298,14 @@
 		</right>
 		<right>
 			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
 			<value>true</value>
 		</right>
 	</object>
