@@ -343,6 +343,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>ThickClient</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>WebClient</name>
 			<value>true</value>
 		</right>
@@ -586,6 +590,61 @@
 		<name>Subsystem.Казначейство.Subsystem.АдминистрированиеКазначейства</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.КАЗ_ОстаткиДенежныхСредств</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.КАЗ_РеестрЗаявок</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.КАЗ_ПлатежныйКалендарь</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.КАЗ_ПланФактПлатежей</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.КАЗ_АнализЛимитовПоЦФО</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 	</object>
